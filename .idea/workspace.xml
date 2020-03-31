@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdbe7f8-3944-4080-8bb2-376a4a6b8d3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/daos/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,6 +51,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -141,7 +146,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585633164178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585633696435" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -222,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583991527335</updated>
-      <workItem from="1585594122086" duration="1091000" />
+      <workItem from="1585594122086" duration="1635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1091000" />
+    <option name="totallyTimeSpent" value="1635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="25" width="1321" height="743" extended-state="6" />
@@ -241,8 +246,8 @@
       <window_info id="Structure" order="1" sideWeight="0.50242716" side_tool="true" weight="0.24941176" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -296,50 +301,28 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="300" y="58" width="800" height="677" key="#Project_Structure" timestamp="1583992313889">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state x="300" y="58" width="800" height="677" key="#Project_Structure/45.27.1321.741@45.27.1321.741" timestamp="1583992313889" />
-    <state x="163" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583997707830">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state x="163" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/45.27.1321.741@45.27.1321.741" timestamp="1583997707830" />
-    <state x="420" y="201" width="561" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583992359518">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state x="420" y="201" width="561" height="390" key="#com.intellij.fileTypes.FileTypeChooser/45.27.1321.741@45.27.1321.741" timestamp="1583992359518" />
-    <state x="843" y="83" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1583993014343">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state x="843" y="83" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/45.27.1321.741@45.27.1321.741" timestamp="1583993014343" />
-    <state x="483" y="140" width="424" height="513" key="FileChooserDialogImpl" timestamp="1583999139682">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state x="483" y="140" width="424" height="513" key="FileChooserDialogImpl/45.27.1321.741@45.27.1321.741" timestamp="1583999139682" />
-    <state width="1275" height="175" key="GridCell.Tab.0.bottom" timestamp="1583999218861">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state width="1275" height="175" key="GridCell.Tab.0.bottom/45.27.1321.741@45.27.1321.741" timestamp="1583999218861" />
-    <state width="1275" height="175" key="GridCell.Tab.0.center" timestamp="1583999218859">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state width="1275" height="175" key="GridCell.Tab.0.center/45.27.1321.741@45.27.1321.741" timestamp="1583999218859" />
-    <state width="1275" height="175" key="GridCell.Tab.0.left" timestamp="1583999218858">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state width="1275" height="175" key="GridCell.Tab.0.left/45.27.1321.741@45.27.1321.741" timestamp="1583999218858" />
-    <state width="1275" height="175" key="GridCell.Tab.0.right" timestamp="1583999218860">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state width="1275" height="175" key="GridCell.Tab.0.right/45.27.1321.741@45.27.1321.741" timestamp="1583999218860" />
-    <state x="194" y="31" key="SettingsEditor" timestamp="1583999113707">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state x="194" y="31" key="SettingsEditor/45.27.1321.741@45.27.1321.741" timestamp="1583999113707" />
-    <state x="368" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583998768039">
-      <screen x="45" y="27" width="1321" height="741" />
-    </state>
-    <state x="368" y="89" width="672" height="678" key="search.everywhere.popup/45.27.1321.741@45.27.1321.741" timestamp="1583998768039" />
+    <state x="300" y="58" width="800" height="677" key="#Project_Structure" />
+    <state x="300" y="58" width="800" height="677" key="#Project_Structure/45.27.1321.741@45.27.1321.741" />
+    <state x="163" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="163" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/45.27.1321.741@45.27.1321.741" />
+    <state x="420" y="201" width="561" height="390" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="420" y="201" width="561" height="390" key="#com.intellij.fileTypes.FileTypeChooser/45.27.1321.741@45.27.1321.741" />
+    <state x="843" y="83" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="843" y="83" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/45.27.1321.741@45.27.1321.741" />
+    <state x="483" y="140" width="424" height="513" key="FileChooserDialogImpl" />
+    <state x="483" y="140" width="424" height="513" key="FileChooserDialogImpl/45.27.1321.741@45.27.1321.741" />
+    <state width="1275" height="175" key="GridCell.Tab.0.bottom" />
+    <state width="1275" height="175" key="GridCell.Tab.0.bottom/45.27.1321.741@45.27.1321.741" />
+    <state width="1275" height="175" key="GridCell.Tab.0.center" />
+    <state width="1275" height="175" key="GridCell.Tab.0.center/45.27.1321.741@45.27.1321.741" />
+    <state width="1275" height="175" key="GridCell.Tab.0.left" />
+    <state width="1275" height="175" key="GridCell.Tab.0.left/45.27.1321.741@45.27.1321.741" />
+    <state width="1275" height="175" key="GridCell.Tab.0.right" />
+    <state width="1275" height="175" key="GridCell.Tab.0.right/45.27.1321.741@45.27.1321.741" />
+    <state x="194" y="31" key="SettingsEditor" />
+    <state x="194" y="31" key="SettingsEditor/45.27.1321.741@45.27.1321.741" />
+    <state x="368" y="89" width="672" height="678" key="search.everywhere.popup" />
+    <state x="368" y="89" width="672" height="678" key="search.everywhere.popup/45.27.1321.741@45.27.1321.741" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FirstHibernate.iml">
