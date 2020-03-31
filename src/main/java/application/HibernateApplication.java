@@ -15,9 +15,9 @@ public class HibernateApplication {
     private static    BufferedReader userInputReader=new BufferedReader(new InputStreamReader(System.in));
     public static void main(String[] arg) throws Exception{
         EntityManager entityManager= Persistence.createEntityManagerFactory("user-unit").createEntityManager();
-        UserDao userDao=new UserDao(entityManager);
+        UserDao userDao1=new UserDao(entityManager);
 
-        new HibernateApplication(userDao).run();
+        new HibernateApplication(userDao1).run();
 
     }
     public HibernateApplication(UserDao userDao){
@@ -42,9 +42,7 @@ public class HibernateApplication {
             case 3:
                 updateExistingUser();
                 break;
-            case 4:
-                removeExistingUser();
-                break;
+
         }
     }
     private void persistNewUser() throws IOException{
@@ -64,10 +62,7 @@ public class HibernateApplication {
         String email=requestStringInput("The email of user");
         userDao.update(id,name,email);
     }
-    private void removeExistingUser() throws IOException{
-        int id=requestIntegerInput("the user id");
-        userDao.remove(id);
-    }
+
     private String requestStringInput(String request) throws  IOException{
         System.out.print("Enter "+request);
         return userInputReader.readLine();
